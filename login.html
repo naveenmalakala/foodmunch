@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a5f37f5eef.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="food-munch-logo"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav m-auto">
+                <a class="nav-link active text-white" id=""href="index.html">Home</a>
+              <a class="nav-link text-white" id="navItem1" aria-current="page" href="whychoose.html">Why Choose Us?</a>
+              <a class="nav-link active text-white" id="navItem2" style="font-weight: 800;" href="explore.html">Explore Menu</a>
+              <a class="nav-link text-white" id="navItem3" href="delivery.html">Delivery & Payment</a>
+              <a class="nav-link text-white" id="navItem4"href="#follow">Follow Us</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="mb-3">
+        <div class="container" style="padding-top: 160px;">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div id="kitchen-image">
+                        <img src="https://img.freepik.com/free-photo/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_188544-13382.jpg?t=st=1710060080~exp=1710063680~hmac=56c71c88dabc66c9bbc615792771d5f0451fd3ab236db9316d63c2d1a0eb8494&w=1060" class="" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div>
+                        <form action="whychoose.html" class="shadow p-3" onsubmit=" return loginForm()">
+                            <div class="">
+                                <div class="text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="w-25"/>
+                               
+                                </div>
+                                <div class="m-2">
+                                    <label>Username</label>
+                                    <input type="text" id="userName" class="form-control" placeholder="Enter Your name" name="userName"/>
+                                    <p id="errorUser"></p>
+                                </div>
+                                <div class="m-2">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control pt-2" id="password" placeholder="Enter Your Password" name="password"/>
+                                    <p id="errorPass"></p>
+                                </div>
+                                <div class="m-2">
+                                    <label>Phone Number</label>
+                                    <input type="tel" class="form-control pt-2" id="mobile" placeholder="Enter Your Mobile Number" name="mobile"/>
+                                    <p id="errorMobile"></p>
+                                </div>
+                               <div class="text-center">
+                                <button class="btn btn-warning" style="width:120px;height:42px;color:white;font-weight: 800;font-size: 14px;">Login</button>
+                               </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                    
+                            </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center mt-2">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="food-munch-logo"/>
+                       <h1 class="footer-heading pt-2">orderfood@naveenfoodmuch.com</h1>
+                      <p class="footer-para">8-92  near Bhanugudhi,Kakinada,India.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </footer>
+      <script src="index.js"></script>
+</body>
+</html>
